@@ -1,0 +1,22 @@
+{
+	"SIGN_IN_BTN" 		 :  "//div[contains(@class,'header_user_info')]/a[contains(.,'Sign in')]",
+	"EMAIL_FIELD" 		 :  "//form[@id='login_form']//input[@id='email']",
+	"PASSWORD_FIELD"	 :	"//form[@id='login_form']//input[@id='passwd']",
+	"LOGIN_BTN"		 	 :	"//form[@id='login_form']//button[@id='SubmitLogin']",
+	"SIGNED_OUT_BTN"	 :	"//div[contains(@class,'header_user_info')]//a[contains(.,'Sign out')]",
+	"HOME_LINK"			 :	"//div[contains(@class,'breadcrumb')]/a[@class='home']",
+	"SEARCH_BOX"		 :	"//form[@id='searchbox']//input[@id='search_query_top']",
+	"SEARCH_BTN"		 :	"//form[@id='searchbox']//button[@type='submit']",
+	"ITEM_FILTER"		 :	"//ul[contains(@class,'product_list')]//li[contains(@class,'ajax_block_product')]",
+	"SELECT_ITEM"		 :	"(//a[contains(@class,'lnk_view')])",
+	"ITEM_DESCRIPTION"	 :  "//div[@id='short_description_block']",
+	"BACK_TO_ITEMS"		 :	"//a[@name='back']",
+	"ITEM_PRICE"		 :	"//span[@id='our_price_display']",
+	"ADD_TO_CARD_BTN"	 :	"//p[@id='add_to_cart']//button[@name='Submit']",
+	"ITEM_COLOUR"		 :	"//li[@class='selected']/a[contains(@name,'Orange')or contains(@name,'Blue')]",
+	"SIZE_DROPDOWN"		 :	"//select[@id='group_1']",
+	"SELECT_OPTION"		 :	"//option[contains(.,'DYN1')]",
+	"TOTAL_COST"		 :	"//div[@class='layer_cart_row']//span[@class='ajax_block_cart_total']",
+	"ITEM_ADDED_MSG"	 :	"//div[contains(@class,'layer_cart_product')]//h2",
+	"ADDED_ITEM_DTL"	 :  "//span[@id='layer_cart_product_attributes']"
+}
